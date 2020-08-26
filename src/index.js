@@ -1,3 +1,5 @@
-console.log('Hello World!')
-console.log('Hello World!')
-console.log('Hello World!')
+import './test'
+import './scss/index.scss'
+
+
+console.log('Hello')
