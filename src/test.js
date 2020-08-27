@@ -2,6 +2,6 @@ console.log('yo')
 
 
 async function start() {
-    await Promise.resolve()
+    return await Promise.resolve('async!!')
 }
-start()
+start().then(console.log)
