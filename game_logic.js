@@ -1,5 +1,30 @@
 //Function ideas, instructions and pseudocode for playing the game
 
+
+//Sample game board object idea - some of the information we need to know about each player and their board and ships. We can use classes to abstract this further. 
+
+const gameboard = {
+  player: "Player A",
+  myTurn: true,
+  gridMap: ["10x10 Matrix here"],
+  shots: {
+    hits: [[7, 2], [9, 5]],
+    misses: [[4, 8], [9, 8]]
+  },
+  ships: {
+    frigate: {
+      coordinates: [[3, 5], [3, 6], [3, 7], [3, 8]], 
+      orientation: 'h'
+      }, 
+      hits: [[3, 6]]
+    }, 
+    destroyer: {},
+    carrier: {}
+  }
+  takeShot: function(){/*function here */},
+
+}
+
 //print a 10x10 board, put a O in the place of water (no hit)
 const printBoard = () => {
   let board = [];
