@@ -35,7 +35,7 @@ const placeShip = (length, orientation, x, y) => {
 //Handle what happens when a ship is hit by a shot
 const hitShip
 
-//handle what happes when a ship is sunk
+//handle what happens when a ship is sunk
 
 
 //handle what happens when all ships are sunk
